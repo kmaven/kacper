@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Context>
+    <Resource name="jdbc/samochody"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="dbuser"
+              password="1234"
+              driverClassName="org.mariadb.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/samochody"
+              maxActive="100"
+              maxIdle="30"
+              maxWait="10000"/>
+</Context>
